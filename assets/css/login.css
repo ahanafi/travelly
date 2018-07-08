@@ -1,0 +1,47 @@
+body{
+	box-sizing: border-box;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+*{
+	border-radius: 0px !important;
+}
+
+#box-login{
+	display: block;
+	margin-top: 120px;
+	text-align: center;
+}
+
+#box-login .panel{
+	padding:30px;
+	background: rgba(0,0,0,0.5);
+	border:none;
+	box-shadow: 10px 10px 1px rgba(0,0,0,0.75);
+}
+
+.box-header{
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 26px;
+	margin-bottom: 12px;
+}
+
+#box-login .panel .panel-head{
+	color: #fff;
+	padding-bottom: 25px;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 24px;
+}
+
+.input-group-addon{
+	background-color: #FCF140;
+	color: #333;
+	border-color: #FCF140;
+}
+
+.input-group .form-control:focus{
+	border-color: #FCF140;
+}
